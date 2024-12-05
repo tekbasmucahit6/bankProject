@@ -5,7 +5,7 @@ import NavLink from "./NavLink"
 
 function Navbar() {
   return (
-    <div className='bg-gradient-to-b from-zinc-950 to-blue-900 h-screen flex flex-col justify-start items-center py-4'>
+    <div className='bg-gradient-to-b from-zinc-950 to-blue-900 h-full min-h-screen flex flex-col justify-start items-center py-4'>
         <Link 
             to={"/"}
         >

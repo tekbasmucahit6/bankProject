@@ -3,7 +3,7 @@ import Cards from './Cards'
 
 function MyCards() {
   return (
-    <div className='w-full p-5 flex justify-start items-center gap-16'>
+    <div className='w-full p-5 flex justify-start items-center gap-8'>
         <Cards />
         <Cards />
         <Cards />

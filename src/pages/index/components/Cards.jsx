@@ -13,9 +13,13 @@ function Cards() {
                 BANK CARD
             </div>
         </div>
+
+
         <div className='w-full flex justify-center items-center text-center'>
             <p>TR51 0000 5151 0000 5151 51</p>
         </div>
+
+        
     </div>
   )
 }

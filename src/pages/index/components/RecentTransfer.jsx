@@ -2,7 +2,7 @@ import React from 'react'
 import { MdOutlineRefresh } from "react-icons/md";
 function RecentTransfer() {
   return (
-    <div className='flex flex-col justify-center items-center p-10 bg-white'>
+    <div className='flex flex-col justify-center items-center p-10 bg-white rounded'>
         <div className='flex justify-between items-center w-full px-1'>
           <strong>RECENTLY TRANSFER</strong>
           <strong className='text-xl'> {">"} </strong>

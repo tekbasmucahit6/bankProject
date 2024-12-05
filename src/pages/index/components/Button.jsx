@@ -1,8 +1,13 @@
 import React from 'react'
-function Button({title,Icon,style}) {
+import { Link } from 'react-router-dom'
+
+
+function Button({direct,title,Icon,style}) {
+
+
   return <div className='flex flex-col justify-center items-center gap-2'>
-    <div className={style}>
-        <button><Icon /></button>
+    <div>
+        <Link to={direct}><button className={style}><Icon /></button></Link>
     </div>
 
     <div className='text-xs'>
