@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div className='w-[300px] h-[150px] rounded-lg border-2 border-blue-900 bg-gray-500 text-white grid grid-rows-2'>
+    <div className='w-[300px] min-w-[300px] h-[150px] rounded-lg border-2 border-blue-900 bg-gradient-to-l from-red-600 to-blue-900 text-white grid grid-rows-2'>
 
         <div className='flex justify-between ms-8 items-center'>
             <div 

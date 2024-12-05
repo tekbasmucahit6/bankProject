@@ -3,10 +3,11 @@ import Cards from './Cards'
 
 function MyCards() {
   return (
-    <div className='w-full p-5 flex justify-center items-center gap-16'>
+    <div className='w-full p-5 flex justify-start items-center gap-16'>
         <Cards />
         <Cards />
         <Cards />
+        
     </div>
   )
 }
